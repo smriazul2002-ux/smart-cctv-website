@@ -1,0 +1,299 @@
+<!--
+Project Title: Smart CCTV Security System Landing Page
+Developed By: SM RIAZUL
+Student ID: 0121231124057
+Course: Cyber Law & Policy
+Year: 2026
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Smart CCTV Security System for Home and Business">
+  <title>Smart CCTV Security System</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f6fb;
+      color: #222;
+      text-align: center;
+      margin: 0;
+      animation: fadeIn 0.8s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    /* NAVBAR */
+    nav {
+      position: sticky;
+      top: 0;
+      background: #1f2937;
+      padding: 15px;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #60a5fa;
+    }
+
+    /* HEADER */
+    h1 {
+      background-color: #1f2937;
+      color: white;
+      padding: 25px;
+      margin: 0;
+    }
+<h1>Smart CCTV Security System</h1>
+<p><b>Protect What Matters Most</b></p>
+
+    h2 {
+      color: #1f2937;
+      margin-top: 40px;
+      letter-spacing: 1px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    /* HERO */
+    .hero {
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #2563eb, #1f2937);
+      color: white;
+    }
+    .hero a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: white;
+      color: #1f2937;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    /* IMAGE */
+    .image-box {
+      max-width: 600px;
+      height: 350px;
+      margin: 25px auto;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+    .image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* ICON LIST */
+    .icon-list {
+      list-style: none;
+      padding: 0;
+    }
+    .icon-list li {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+
+    /* CARDS */
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      width: 200px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+
+    /* TABLE */
+    table {
+      width: 70%;
+      margin: 30px auto;
+      border-collapse: collapse;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    }
+    th {
+      background-color: #1f2937;
+      color: white;
+      padding: 14px;
+    }
+    td {
+      padding: 14px;
+      border-bottom: 1px solid #eee;
+    }
+    tr:hover td {
+      background-color: #eef4ff;
+    }
+
+    /* HIGHLIGHT */
+    .highlight {
+      background-color: #e5f0ff;
+      padding: 25px;
+      margin: 35px auto;
+      width: 60%;
+      border-radius: 12px;
+    }
+
+    /* LINKS */
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 22px;
+      background: linear-gradient(135deg, #1f2937, #2563eb);
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+    }
+
+    /* BADGE */
+    .badge {
+      background: red;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 12px;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #1f2937;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+<footer>
+  <p>
+    © 2026 Smart CCTV Security System <br>
+    A product of <b>SecureVision CCTV</b><br>
+    Designed & Developed by <b>SM RIAZUL</b><br>
+    Student ID: <b>0121231124057</b>
+  </p>
+</footer>
+
+    @media (max-width: 768px) {
+      table, .highlight {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#features">Features</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<h1>Smart CCTV Security System</h1>
+
+<section class="hero">
+  <h2>Protect What Matters Most</h2>
+  <p>Advanced AI-powered CCTV for Home & Business</p>
+  <a href="#pricing">View Plans</a>
+</section>
+
+<div class="image-box">
+  <img src="cctv.jpg" alt="CCTV Camera">
+</div>
+<footer>
+  <p>
+    © 2026 Smart CCTV Security System <br>
+    A product of <b>SecureVision CCTV</b><br>
+    Designed & Developed by <b>SM RIAZUL</b><br>
+    Student ID: <b>0121231124057</b>
+  </p>
+</footer>
+
+<ul class="icon-list" id="features">
+  <li>📷 HD Camera</li>
+  <li>🌙 Night Vision</li>
+  <li>📱 Mobile App Support</li>
+  <li>☁️ Cloud Storage</li>
+</ul>
+
+<div class="cards">
+  <div class="card">HD Camera</div>
+  <div class="card">Motion Detection</div>
+  <div class="card">Night Vision <span class="badge">Best Seller</span></div>
+</div>
+
+<h2 id="pricing">Pricing Plans</h2>
+<div class="cards">
+  <div class="card">Basic<br>$15/month</div>
+  <div class="card">Standard<br>$30/month</div>
+  <div class="card">Premium<br>$50/month</div>
+</div>
+
+<h2>Ethical Use of CCTV</h2>
+<div class="highlight">
+  <p>
+    CCTV systems must respect <b>privacy</b> and <b>human rights</b>.
+    This system follows lawful surveillance and data protection principles.
+  </p>
+</div>
+
+<h2>Product Features</h2>
+<table>
+  <tr><th>No</th><th>Feature</th></tr>
+  <tr><td>1</td><td>HD Camera</td></tr>
+  <tr><td>2</td><td>Night Vision</td></tr>
+  <tr><td>3</td><td>Motion Detection</td></tr>
+  <tr><td>4</td><td>Mobile App Support</td></tr>
+  <tr><td>5</td><td>Cloud Storage</td></tr>
+  <tr><td>6</td><td>Weather Proof</td></tr>
+  <tr><td>7</td><td>Audio Recording</td></tr>
+  <tr><td>8</td><td>Wide Angle Lens</td></tr>
+  <tr><td>9</td><td>Easy Installation</td></tr>
+  <tr><td>10</td><td>24/7 Support</td></tr>
+</table>
+
+<h2>Reference Links</h2>
+<div class="links">
+  <a href="https://www.cisco.com" target="_blank">Cisco</a>
+  <a href="https://www.axis.com" target="_blank">Axis</a>
+  <a href="https://www.hikvision.com" target="_blank">Hikvision</a>
+  <a href="https://www.security.org" target="_blank">Security.org</a>
+  <a href="https://www.techradar.com" target="_blank">TechRadar</a>
+</div>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: support@smartcctv.com</p>
+  <p>Phone: +880 1234 567890</p>
+</section>
+
+<footer>
+  <p>
+    © 2026 Smart CCTV Security System <br>
+    Designed & Developed by <b>SM RIAZUL</b><br>
+    Student ID: <b>0121231124057</b>
+  </p>
+</footer>
+
+</body>
+</html>
